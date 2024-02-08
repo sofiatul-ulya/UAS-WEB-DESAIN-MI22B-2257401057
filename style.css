@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: rgb(0, 174, 255);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed; 
+    width: 100%;
+    top: 0;
+    z-index: 1000; 
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: rgb(0, 174, 255);
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  main {
+    margin-top: 120px;
+    background-clip: padding-box;
+  }
+  
+  .katalog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  
+  .item {
+    width: calc(25% - 20px);
+    margin: 0 10px 20px 0;
+    box-sizing: border-box;
+  }
+  
+  .item img {
+    object-fit: cover; 
+    width: 200px;
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 1px;
+    border-radius: 1px;
+    margin: 10px;
+  }
+  
+  .beli {
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 10px; 
+    padding: 10px;
+    background-color: rgb(0, 174, 255);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .keranjang {
+    display: inline-block; 
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgb(0, 174, 255);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .beli:hover {
+    background-color: rgb(0, 174, 255);
+  }
+  
+  .keranjang:hover {
+    background-color: rgb(0, 174, 255);
+  }
+  
+  .promo {
+    width: 300px;
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 1px;
+    border-radius: 1px;
+    margin: 10px;
+  }
+  
+  .promo img {
+    max-width: 300px;
+    height: auto;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+
+  .deskripsi-promo{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+  }
+
+  .lihat{
+    display: inline-block;
+    margin-right: 10px; 
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgb(0, 174, 255);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .item {
+    width: 300px;
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 1px;
+    border-radius: 1px;
+    margin: 10px;
+  }
+  
+  .nama-barang {
+    font-weight: bold;
+    margin-top: 3px;
+  }
+  
+  .deskripsi-barang {
+    margin-top: 5px;
+    color: #555;
+  }
+  
+  .info-barang {
+    margin-top: 10px;
+  } 
+
+  .logo{
+    max-width: 240px;
+    text-align: center;
+    padding: 1px;
+    border-radius: 1px;
+    margin: 10px;
+  }
+
+  .nama-logo{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: bold;
+  }
